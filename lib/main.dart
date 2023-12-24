@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:workshop/workshop/one.dart';
+import 'package:workshop/1_splash_screen/one.dart';
+import 'package:workshop/2_onbording/two.dart';
 
-import 'package:workshop/workshop/three_home_screen/three.dart';
-import 'package:workshop/workshop/two.dart';
+import '3_home_screen/three.dart';
 
 void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Two(),
+      home:  Three(),
     ),
   );
 }
+ 

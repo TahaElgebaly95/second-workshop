@@ -9,12 +9,12 @@ class DataOfCirlce {
 
 List<DataOfCirlce> datacircle = [
   DataOfCirlce(
-    circleImage: 'assets/workshop/three/rec.png',
+    circleImage: 'assets/images/three/rec.png',
     colorImage: Color(0xffF8A44C),
     textImage: 'Pulses',
   ),
   DataOfCirlce(
-    circleImage: 'assets/workshop/three/rices.png',
+    circleImage: 'assets/images/three/rices.png',
     colorImage: Color(0xffe5f4eb),
     textImage: 'Rices',
   ),

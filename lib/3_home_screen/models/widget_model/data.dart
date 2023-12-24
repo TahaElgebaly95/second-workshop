@@ -14,19 +14,19 @@ class Data {
 
 List<Data> post = [
   Data(
-    image: 'assets/workshop/three/bananana.png',
+    image: 'assets/images/three/bananana.png',
     text: 'Organic Banana',
     text2: " 7Pcs, Priceg",
     price: '\$4.99',
   ),
   Data(
-    image: 'assets/workshop/three/redapple.png',
+    image: 'assets/images/three/redapple.png',
     text: 'Red Apple',
     text2: " 1Pcs, Priceg",
     price: '\$4.99',
   ),
   Data(
-    image: 'assets/workshop/three/hiclipart 2.png',
+    image: 'assets/images/three/hiclipart 2.png',
     text: 'Egg basta',
     text2: " 30mg, Price",
     price: '\$15.99',
@@ -34,19 +34,19 @@ List<Data> post = [
 ];
 List<Data> postTwo = [
   Data(
-    image: 'assets/workshop/three/222.png',
+    image: 'assets/images/three/222.png',
     text: 'Bell Pepper Red',
     text2: " 7Pcs, Priceg",
     price: '\$4.99',
   ),
   Data(
-    image: 'assets/workshop/three/333.png',
+    image: 'assets/images/three/333.png',
     text: 'Bell Pepper Red',
     text2: " 7Pcs, Priceg",
     price: '\$4.99',
   ),
   Data(
-    image: 'assets/workshop/three/coca.png',
+    image: 'assets/images/three/coca.png',
     text: 'CocaCola',
     text2: " 330ml, Price",
     price: '\$4.99',
@@ -54,19 +54,19 @@ List<Data> postTwo = [
 ];
 List<Data> postthree = [
   Data(
-    image: 'assets/workshop/three/meal.png',
+    image: 'assets/images/three/meal.png',
     text: 'Beef Bone',
     text2: " 7Pcs, Priceg",
     price: '\$4.99',
   ),
   Data(
-    image: 'assets/workshop/three/pngfuel 5.png',
+    image: 'assets/images/three/pngfuel 5.png',
     text: 'Broiler chiken',
     text2: " 7Pcs, Priceg",
     price: '\$4.99',
   ),
   Data(
-    image: 'assets/workshop/three/pepsi.png',
+    image: 'assets/images/three/pepsi.png',
     text: 'Pepsi can',
     text2: " 330ml, Price",
     price: '\$4.99',
