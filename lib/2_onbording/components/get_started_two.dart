@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../../3_login/three.dart';
+import '../../utills/navigation_button.dart';
 
 class GetStartedTwo extends StatelessWidget {
   const GetStartedTwo({super.key});
@@ -9,10 +11,12 @@ class GetStartedTwo extends StatelessWidget {
       clipBehavior: Clip.antiAliasWithSaveLayer,
       style: ElevatedButton.styleFrom(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-        padding: EdgeInsets.symmetric(horizontal: 90,vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 90,vertical: 10),
         backgroundColor: Color(0xff53B175),
       ),
-      onPressed: () {},
+      onPressed: () {
+        NaviButton.push(context, Three());
+      },
       child: const Text(
         'Get Started',
         style: TextStyle(

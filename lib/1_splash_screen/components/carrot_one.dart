@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:workshop/utills/navigation_button.dart';
 import '../../2_onbording/two.dart';
 
 class CarrotOne extends StatelessWidget {
@@ -7,11 +8,9 @@ class CarrotOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-        onTap: () => Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const Two(),
-            )),
+        onTap: () {
+       NaviButton.push(context, const Two());
+        },
         child: Image.asset('assets/images/one.png'));
   }
 }

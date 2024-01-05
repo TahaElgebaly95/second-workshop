@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:ui';
-import '../colors.dart';
 
 class PriceTextStyle {
   static const priceStyle =
@@ -12,7 +10,7 @@ class DescriptionTextStyle {
 }
 
 class TitleTextStyle {
-  static const titleTextSyle =
+  static const titleTextStyle =
       TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 16);
 }
 
@@ -32,8 +30,8 @@ class InsideEleButton {
 }
 
 class ListStyle {
-  static const Title =
+  static const title =
       TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold);
-  static const Description =
+  static const description =
       TextStyle(color: Colors.grey, fontSize: 15, fontWeight: FontWeight.bold);
 }
